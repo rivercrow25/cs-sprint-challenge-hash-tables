@@ -3,8 +3,12 @@ def intersection(arrays):
     YOUR CODE HERE
     """
     # Your code here
+    result = []
+    dct = {}
+    for i in range(len(arrays)):
+        dct[i] = arrays[i]
 
-    return result
+    return dct
 
 
 if __name__ == "__main__":
