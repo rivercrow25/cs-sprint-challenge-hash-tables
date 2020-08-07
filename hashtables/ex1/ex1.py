@@ -4,7 +4,6 @@ def get_indices_of_item_weights(weights, length, limit):
     """
     # Your code here
     dct = {}
-    my_tuple = ()
     for i in range(length):
         dct[weights[i]] = i
 
